@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		ul,li{
+			list-style: none;
+		}
+		body{
+			margin: 0;
+		}
+		.wb{
+			width:210px;
+			height:465px;
+			margin-left: 20px;
+			padding-top: 1px;
+			background: #c81623;
+			margin-top: 20px;
+		}
+
+		.qb{
+			width:100%;
+
+		}
+		.al{
+			width: 210px;
+			height:31px;
+			background: yellow;
+			border-left: 1px solid #b61d1d;
+			position: relative;
+			color: #fff;
+
+
+
+		}
+		p{
+
+			position: absolute;
+			z-index: 1;
+			height: 31px;
+			padding: 0 10px;
+			line-height: 31px;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.nr{
+			width:700px;
+			height:465px;
+			position: fixed;
+			left: 230px;
+			top:20px;
+			z-index: 10;
+			background: blue;
+			border: 1px solid #b61d1d;
+			border-left:0;
+			display: none;
+		}
+		.nr .lk{
+			color: #000;
+			border:0;
+			padding: 0 15px;
+		}
+		.qb .al:hover{
+			background: blue;
+			color: #000;
+		}
+	.qb .al:hover .nr{
+		display: block;
+	}
+
+	</style>
+</head>
+<body>
+
+<div class="wb">
+	<ul class="qb" >
+		<li class="al">
+			<p>12312</p>
+			<ul class="nr">
+				<li class="lk">abcde</li>
+			</ul>
+		</li>
+
+
+
+	</ul>
+</div>
+
+
+
+</body>
+<script>
+
+</script>
+</html>
